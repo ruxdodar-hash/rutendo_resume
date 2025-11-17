@@ -14,8 +14,8 @@
             padding: 0;
             display: flex;
             justify-content: center;
-            align-items: center;
-            height: 100vh;
+            align-items: flex-start; /* Changed to flex-start for proper alignment */
+            height: auto; /* Changed to auto for scrollability */
             text-align: left;
         }
         main {
@@ -25,6 +25,7 @@
             background: #fff;
             border: 1px solid #ddd;
             border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Added shadow for subtle depth */
         }
         header {
             text-align: center;
@@ -100,23 +101,23 @@
             <p>Finance and Legal Administrator (November 2023 – July 2025)</p>
             <ul>
                 <li>Improved financial reporting accuracy by producing timely reports.</li>
-                <li>Demonstrated regulatory compliance through monitoring changes in laws affecting the Company.</li>
+                <li>Demonstrated regulatory compliance through monitoring changes in laws affecting the company.</li>
                 <li>Improved organisational efficiency by participating in the review of standard operating procedures.</li>
                 <li>Acted as the Legal and Company Secretary from September 2024 to January 2025.</li>
-                <li>Improved the Company’s compliance in corporate governance and achieved a 97% compliance rate.</li>
+                <li>Improved the company’s compliance in corporate governance, achieving a 97% compliance rate.</li>
             </ul>
 
             <h3>Zimbabwe Electoral Commission, Harare, Zimbabwe</h3>
             <p>Senior Executive Assistant (June 2019 – October 2023)</p>
             <ul>
                 <li>Provided remarkable administrative support through timely reporting and management of meetings.</li>
-                <li>Handled sensitive information with confidentiality, interacting with Board members (Commissioners).</li>
+                <li>Handled sensitive information with confidentiality, interacting with board members (Commissioners).</li>
             </ul>
 
             <h3>Reformed Church University, Masvingo, Zimbabwe</h3>
             <p>Admissions and Examinations Clerk (January 2013 – May 2019)</p>
             <ul>
-                <li>Handled the admission of students and examinations processes for more than four years.</li>
+                <li>Handled the admission of students and examination processes for more than four years.</li>
                 <li>Embarked on direct marketing campaigns and increased enrolment by an average of 20% per semester.</li>
             </ul>
         </section>
